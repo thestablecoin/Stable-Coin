@@ -1,0 +1,26 @@
+[Unit]
+Description=StableCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=stablecoin
+Group=stablecoin
+
+Type=forking
+PIDFile=/var/lib/stablecoind/stablecoind.pid
+
+ExecStart=/usr/bin/stablecoind -daemon -pid=/var/lib/stablecoind/stablecoind.pid \
+          -conf=/etc/stablecoin/stablecoin.conf -datadir=/var/lib/stablecoind
+
+ExecStop=-/usr/bin/stablecoin-cli -conf=/etc/stablecoin/stablecoin.conf \
+         -datadir=/var/lib/stablecoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

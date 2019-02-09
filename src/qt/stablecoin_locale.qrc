@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/stablecoin_bg.qm</file>
+        <file alias="ca">locale/stablecoin_ca.qm</file>
+        <file alias="cs">locale/stablecoin_cs.qm</file>
+        <file alias="da">locale/stablecoin_da.qm</file>
+        <file alias="de">locale/stablecoin_de.qm</file>
+        <file alias="en">locale/stablecoin_en.qm</file>
+        <file alias="en_US">locale/stablecoin_en_US.qm</file>
+        <file alias="es">locale/stablecoin_es.qm</file>
+        <file alias="fi">locale/stablecoin_fi.qm</file>
+        <file alias="fr_FR">locale/stablecoin_fr_FR.qm</file>
+        <file alias="hr">locale/stablecoin_hr.qm</file>
+        <file alias="it">locale/stablecoin_it.qm</file>
+        <file alias="ja">locale/stablecoin_ja.qm</file>
+        <file alias="ko_KR">locale/stablecoin_ko_KR.qm</file>
+        <file alias="nl">locale/stablecoin_nl.qm</file>
+        <file alias="pl">locale/stablecoin_pl.qm</file>
+        <file alias="pt">locale/stablecoin_pt.qm</file>
+        <file alias="pt_BR">locale/stablecoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/stablecoin_ro_RO.qm</file>
+        <file alias="ru">locale/stablecoin_ru.qm</file>
+        <file alias="sk">locale/stablecoin_sk.qm</file>
+        <file alias="sv">locale/stablecoin_sv.qm</file>
+        <file alias="tr">locale/stablecoin_tr.qm</file>
+        <file alias="uk">locale/stablecoin_uk.qm</file>
+        <file alias="zh_CN">locale/stablecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/stablecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

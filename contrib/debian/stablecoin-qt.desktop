@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=StableCoin
+Comment=StableCoin P2P Cryptocurrency
+Comment[fr]=StableCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=StableCoin, eşten eşe kriptografik sanal para birimi
+Exec=stablecoin-qt %u
+Terminal=false
+Type=Application
+Icon=stablecoin128
+MimeType=x-scheme-handler/stablecoin;
+Categories=Office;Finance;

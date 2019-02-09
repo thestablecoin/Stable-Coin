@@ -1,0 +1,11 @@
+[Protocol]
+exec=stablecoin-qt '%u'
+protocol=stablecoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

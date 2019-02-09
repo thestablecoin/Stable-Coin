@@ -1,0 +1,26 @@
+# /etc/conf.d/stablecoind: config file for /etc/init.d/stablecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/stablecoin/stablecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/stablecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/stablecoind.pid"
+
+# Where to write stablecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/stablecoind"
+
+# User and group to own stablecoind process
+#BITCOIND_USER="stablecoin"
+#BITCOIND_GROUP="stablecoin"
+
+# Path to stablecoind executable
+#BITCOIND_BIN="/usr/bin/stablecoind"
+
+# Nice value to run stablecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

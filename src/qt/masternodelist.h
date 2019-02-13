@@ -45,7 +45,7 @@ private:
     int64_t nTimeFilterUpdated;
     bool fFilterUpdated;
 
-public Q_SLOT:
+public Q_SLOTS:
     void updateMyMasternodeInfo(QString strAlias, QString strAddr, CMasternode* pmn);
     void updateMyNodeList(bool fForce = false);
 
@@ -59,7 +59,7 @@ private:
     CCriticalSection cs_mnlistupdate;
     QString strCurrentFilter;
 
-private Q_SLOT:
+private Q_SLOTS:
     void showContextMenu(const QPoint&);
     void on_startButton_clicked();
     void on_startAllButton_clicked();

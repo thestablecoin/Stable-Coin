@@ -34,7 +34,7 @@ protected:
     void keyPressEvent(QKeyEvent* event);
     void showEvent(QShowEvent*);
 
-private Q_SLOT:
+private Q_SLOTS:
     void onSearch();
     void goTo(const QString& query);
     void back();
